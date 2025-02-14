@@ -22,17 +22,17 @@ RETRY_DELAY = 5  # Seconds between retries
 QUESTION_DELAY = 1  # Seconds between successful questions
 
 QUESTIONS = [
-   "What's the current market sentiment for Solana?",
-            "Analyze Bitcoin's price movement in the last hour",
-            "Compare ETH and BTC performance today",
-            "Which altcoins are showing bullish patterns?",
-            "Market analysis for top 10 cryptocurrencies",
-            "Technical analysis for Polkadot",
-            "Price movement patterns for Avalanche",
-            "Polygon's market performance analysis",
-            "Latest developments affecting BNB price",
-            "Cardano's market outlook",
-            "What's your favorite way to engage with art?",
+    "What's the current market sentiment for Solana?",
+    "Analyze Bitcoin's price movement in the last hour",
+    "Compare ETH and BTC performance today",
+    "Which altcoins are showing bullish patterns?",
+    "Market analysis for top 10 cryptocurrencies",
+    "Technical analysis for Polkadot",
+    "Price movement patterns for Avalanche",
+    "Polygon's market performance analysis",
+    "Latest developments affecting BNB price",
+    "Cardano's market outlook",
+    "What's your favorite way to engage with art?",
     "What's something you wish you could tell your future self?",
     "What's your favorite way to spend time with family?",
     "If you could have any view from your window, what would it be?",
@@ -62,8 +62,66 @@ QUESTIONS = [
     "What's your favorite kind of day out?",
     "What's the most exciting thing about the future to you?",
     "What's your favorite way to remember someone special?",
-    "If you could have any mythical creature as a friend, which would you choose?"
-  
+    "If you could have any mythical creature as a friend, which would you choose?",
+    "Best way to relax?",
+    "What's your favorite animal?",
+    "What's your favorite city?",
+    "What's your favorite way to exercise?",
+    "What's your favorite board game?",
+    "Ideal weekend activity?",
+    "What's your favorite sound?",
+    "What's your favorite vegetable?",
+    "Best way to start the day?",
+    "What's your favorite genre of music?",
+    "What superpower do you want?",
+    "Favorite type of coffee or tea?",
+    "What's your favorite way to learn?",
+    "Best way to celebrate success?",
+    "What's your favorite planet?",
+    "Favorite childhood memory?",
+    "What's your favorite holiday?",
+    "Best place for a date?",
+    "What's your favorite myth or legend?",
+    "What's your favorite way to unwind?",
+    "Favorite piece of clothing?",
+    "What's your favorite ice cream flavor?",
+    "What's your favorite way to socialize?",
+    "Ideal evening activity?",
+    "What's your favorite TV show?",
+    "Best place you've ever visited?",
+    "What's your favorite way to de-stress?",
+    "What's your favorite historical era?",
+    "Favorite type of bread?",
+    "What's your favorite way to give back?",
+    "What's your favorite scent?",
+    "Favorite way to celebrate a friend's birthday?",
+    "What's your favorite cartoon?",
+    "What's your favorite form of exercise?",
+    "What's your favorite way to show love?",
+    "Favorite thing about your culture?",
+    "What's your favorite type of candy?",
+    "What's your favorite way to learn history?"
+    "What's your favorite type of footwear?"
+    "What's your favorite way to spend alone time?"
+    "Favorite way to start a conversation?"
+    "What's your favorite type of movie?"
+    "What's your favorite way to explore nature?"
+    "What's your favorite way to celebrate New Year?"
+    "Favorite type of soup?"
+    "What's your favorite way to stay healthy?"
+    "What's your favorite way to engage with art?"
+    "Favorite way to learn a new language?"
+    "What's your favorite way to celebrate the end of the week?"
+    "What's your favorite way to receive compliments?"
+    "Favorite way to make someone's day?"
+    "What's your favorite way to learn about technology?"
+    "What's your name?"
+    "How are you?"
+    "What time is it?"
+    "What's the weather like?"
+    "What's 2 + 2?"
+    "What day is today?"
+    "What's the capital of France?"
 ]
 
 def chat_with_ai(api_key: str, question: str) -> str:
