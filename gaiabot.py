@@ -15,8 +15,8 @@ logging.basicConfig(
 )
 
 # Configuration
-BASE_URL = "https://vortex.gaia.domains"
-MODEL = "qwen2.5-0.5b-instruct"
+BASE_URL = "https://doge.gaia.domains"
+MODEL = "Qwen2-0.5B-Instruct"
 MAX_RETRIES = 100  # Essentially infinite retries
 RETRY_DELAY = 5  # Seconds between retries
 QUESTION_DELAY = 1  # Seconds between successful questions
