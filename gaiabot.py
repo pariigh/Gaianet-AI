@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # Configuration
-BASE_URL = "https://doge.gaia.domains"
+BASE_URL = "https://pengu.gaia.domains"
 MODEL = "Qwen2-0.5B-Instruct"
 MAX_RETRIES = 100  # Essentially infinite retries
 RETRY_DELAY = 5  # Seconds between retries
