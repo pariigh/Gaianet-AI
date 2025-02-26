@@ -61,7 +61,7 @@ QUESTIONS = [
 "What are the ethical concerns around data ownership in decentralized AI?",
 "How does decentralized AI ensure transparency in data usage?",
 "Can decentralized AI prevent bias in data processing?",
-"How does decentralized AI address the "black box" problem?",
+"How does decentralized AI address the black box problem?",
 "Who governs decentralized AI systems?",
 "How are decisions made in decentralized AI networks?",
 "What ethical frameworks apply to decentralized AI?",
